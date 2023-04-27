@@ -1,0 +1,88 @@
+body {
+    font-size: 16px;
+    background-color: #212121;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Secular One', sans-serif; /* Agregar font-family de google fonts*/
+    color: #0097a7;
+    text-shadow: 4px 2px 7px #ffffff;
+}
+.centrar{
+    justify-content: center;
+}
+.contenedor {
+    background-color: #0097a7;
+    color: white;
+    padding: 1%;
+    border-radius: 35px;
+    width: 50%;
+    margin-left: 25%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+fieldset {
+    border: none;
+}
+
+.box {
+    width: 25%;
+    height: 80%;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1200px){
+    .box{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
+
+.input-text {
+    background-color: black;
+    border: solid;
+    width: 100%;
+    border-width: 1px;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.input-text select {
+    border: none;
+}
+
+.boton {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: aqua;
+}
+.boton:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+footer {
+    margin-top: 37rem;
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Práctica JS 2</title>
+</head>
+<body>  
+    <h1>Conversiones de temperaturas</h1>
+        <form>
+            <fieldset>
+                <div class="contenedor">
+                    <div class = "box">
+                        <label for="">Temperatura:</label>
+                        <input class="input-text" type="number" name="" id="numberOne">
+                    </div>
+        
+                    <div class = "box">
+                        <label for="">Conversion</label>
+                        <select class="input-text" name="" id="ListBox1">
+                            <option disabled selected value="1">--Elije una opción--</option>
+                            <option value="2">Celcius-Kelvin</option>
+                            <option value="3">Kelvin-Celsius</option>
+                            <option value="4">Celsius-Fahrenheit</option>
+                            <option value="5">Fahrenheit-Celsius</option>
+                            <option value="6">Kelvin-Fahrenheit</option>
+                            <option value="7">Fahrenheit-Kelvin</option>
+                        </select>
+                    </div>  
+        
+                    <div class = "box">
+                        <label id = "resultado" for="">Resultado: </label>
+                    </div>
+    
+                    <div class = "box">
+                        <input class = "boton"  onClick="operacionFcn()" type="button" value="Calcular">
+                    </div>   
+                </div>        
+            </fieldset>
+        </form>   
+    <footer class="footer">Todos los derechos reservados © 2023 Alejandro Escobedo</footer>
+    <script src="/app/appoperaciones.js"></script>
+
+</body>
+</html>
